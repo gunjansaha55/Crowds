@@ -80,7 +80,7 @@ npm run dev
 
 cd backend
 npx hardhat compile
-npx hardhat run scripts/deploy.js --network 
+npx hardhat run scripts/deploy.js --network rinkeby
 
 
 2. Update the contract addresses and ABI in the frontend code to interact with the deployed contracts on the Rinkeby testnet.
