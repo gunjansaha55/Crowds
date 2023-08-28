@@ -95,3 +95,10 @@ npx hardhat run scripts/deploy.js --network rinkeby
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to add new features, feel free to open a pull request.
+
+
+
+Some Screenshots of Our Website------
+
+<img width="1440" alt="s1" src="https://github.com/gunjansaha55/Crowds/assets/97596347/28f5ddf5-78e9-4fb5-b770-bf648b79d8b0">
+
