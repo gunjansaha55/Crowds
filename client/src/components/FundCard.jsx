@@ -1,5 +1,4 @@
 import React from "react";
-
 import { tagType, thirdweb } from "../assets";
 import { daysLeft } from "../utils";
 
@@ -13,14 +12,15 @@ const FundCard = ({
   image,
   handleClick,
 }) => {
-  const remainingDays = daysLeft(deadline);
+  // Calculate remaining days only if the deadline is positive
+  const remainingDays = deadline >= 0 ? daysLeft(deadline) : 14;
 
   return (
     <div
       className="sm:w-[288px] w-full rounded-[15px] bg-[#1c1c24] cursor-pointer"
       onClick={handleClick}
     >
-      <img
+       <img
         src={image}
         alt="fund"
         className="w-full h-[158px] object-contain rounded-[15px]"
